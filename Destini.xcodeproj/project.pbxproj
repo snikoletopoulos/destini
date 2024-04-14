@@ -47,7 +47,7 @@
 			isa = PBXGroup;
 			children = (
 				AD7631EE22FC656600C6E71B /* README.md */,
-				AD7631D222FC5E7E00C6E71B /* Destini-iOS13 */,
+				AD7631D222FC5E7E00C6E71B /* Destini */,
 				AD7631D122FC5E7E00C6E71B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -60,7 +60,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AD7631D222FC5E7E00C6E71B /* Destini-iOS13 */ = {
+		AD7631D222FC5E7E00C6E71B /* Destini */ = {
 			isa = PBXGroup;
 			children = (
 				AD7631D322FC5E7E00C6E71B /* AppDelegate.swift */,
@@ -72,7 +72,7 @@
 				AD7631DE22FC5E8300C6E71B /* LaunchScreen.storyboard */,
 				AD7631E122FC5E8300C6E71B /* Info.plist */,
 			);
-			path = "Destini-iOS13";
+			path = Destini;
 			sourceTree = "<group>";
 		};
 		AD7631E722FC64A100C6E71B /* Controller */ = {
