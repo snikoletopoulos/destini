@@ -1,30 +1,30 @@
 import UIKit
 
 class ViewController: UIViewController {
-    @IBOutlet var storyLabel: UILabel!
-    @IBOutlet var choice1Button: UIButton!
-    @IBOutlet var choice2Button: UIButton!
+  @IBOutlet var storyLabel: UILabel!
+  @IBOutlet var choice1Button: UIButton!
+  @IBOutlet var choice2Button: UIButton!
 
-    var storyBrain = StoryBrain()
+  var storyBrain = StoryBrain()
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
+  override func viewDidLoad() {
+    super.viewDidLoad()
 
-        updateStory()
-    }
+    updateStory()
+  }
 
-    @IBAction func choiceMade(_ sender: UIButton) {
-        storyBrain.nextStory(choice: sender.currentTitle!)
+  @IBAction func choiceMade(_ sender: UIButton) {
+    storyBrain.nextStory(choice: sender.currentTitle!)
 
-        updateStory()
-    }
+    updateStory()
+  }
 
-    func updateStory() {
-        let story = storyBrain.getActiveStory()
+  func updateStory() {
+    let story = storyBrain.getActiveStory()
 
-        storyLabel.text = story.title
+    storyLabel.text = story.title
 
-        choice1Button.setTitle(story.firstChoice, for: .normal)
-        choice2Button.setTitle(story.secondChoice, for: .normal)
-    }
+    choice1Button.setTitle(story.firstChoice, for: .normal)
+    choice2Button.setTitle(story.secondChoice, for: .normal)
+  }
 }
