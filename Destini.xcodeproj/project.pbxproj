@@ -135,7 +135,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AD7631CB22FC5E7D00C6E71B /* Build configuration list for PBXProject "Destini-iOS13" */;
+			buildConfigurationList = AD7631CB22FC5E7D00C6E71B /* Build configuration list for PBXProject "Destini" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -353,7 +353,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AD7631CB22FC5E7D00C6E71B /* Build configuration list for PBXProject "Destini-iOS13" */ = {
+		AD7631CB22FC5E7D00C6E71B /* Build configuration list for PBXProject "Destini" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AD7631E222FC5E8300C6E71B /* Debug */,
